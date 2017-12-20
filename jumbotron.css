@@ -8,14 +8,36 @@ p {
 	font-size: 16px;
 }
 
+h4 {
+	text-align: center;
+	padding-left: 10px;
+	font-size :14px;
+}
+
 ul {
 	list-style: none;
 	padding-left: 10px;
 	font-size: 15px;
 }
 
+h6 {
+	text-align: center;
+	padding-left: 10px;
+	font-size: 26px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 12.5%;
+
+}
+
 h1 {
 	text-align: center;
+	padding-left: 10px;
+	font-size: 24px;
 }
 
 .footer p {
