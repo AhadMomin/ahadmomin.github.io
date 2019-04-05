@@ -31,36 +31,90 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-      <img = src="files/Ahad_ALE.png" alt="..." class="img-circle">
-        <h6>Ahad Momin's Website & Project Files</h6>
-        <SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Access Code ',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "1947") {
-alert('Access Granted');
-window.open('pass.html');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</SCRIPT>
-<center>
-<form>
-  <input class="w3-button w3-black" type="button" value="Enter Access Code" onClick="passWord()">
-  <h4>
-<a href="https://www.linkedin.com/in/ahad-momin/" class="w3-button w3-black">Contact Me</a>
-</h4>
-</form>
-</script>
+      <img = "displayed" src="files/Ahad_ALE.png" alt="..." class="img-circle">
+        <h6>Ahad Momin</h6>
+      	<h4>The University of Texas at Austin</h4>
+      	<h4>B.S Petroleum Engineering Honors</h4>
+        <h4>Vice President, UT American Association of Drilling Engineers</h4>
       </div>
     </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <h2>Skills</h2>
+          <p>Proficient:</p>
+          <ul>
+            <li>MATLAB</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Excel</li>
+            <li>Python</li>
+          </ul>
+          <p>Worked in:</p>
+          <ul>
+            <li>Linux</li>
+            <li>MacOS</li>
+          <h2>Links</h2>
+          <p><a href="#" target="_blank">Resume</a></p>
+          <p><a href="https://www.linkedin.com/in/ahad-momin/" target="_blank">LinkedIn</a></p>
+          <p><a href="#" target="_blank">GitHub</a></p>
+          <p> </p>
+            <!-- <li>PHP</li>
+            <li>JavaScript</li>
+            <li>Django</li> -->
+          <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h2>Projects</h2>
+          <p><a href="files/Digital_Twins_for_the_Geothermal_Power_System.pdf" target="_blank"> Capstone Project (Geothermal Energy, Iceland)</a></p>
+          <p><a href="files/Production_Final_Project.pdf" target="_blank">Production and Completion Bakken, North Dakota</a></p>
+          <p><a href="files/Drilling_Program_Gulf_of_Mexico.pdf" target="_blank">
+          Offshore Drilling Program Gulf of Mexico</a></p>
+          <p><a href="files/Understanding_Well_completions.pdf" target="_blank"> Drilling Horizontally In Eagle Ford</a></p>
+          <p><a href="files/Comp_Project.pdf" target="_blank">Computational Project</a></p>
+          <h2>Research</h2>
+          <p><a href="#" target="_blank">Digital Twinning in Pad Drilling</a></p>
+          <p><a href="files/Glue_Research_Presentation_AHAD_MOMIN.pptx" target="_blank">Estimating polarity-based distribution of bitumen using simplified chromatographic techniques</a></p>
+          <p><a href="files/Understanding_Well_completions.pdf" target="_blank">Understanding Well Completions</a></p>
+       </div>
+        <div class="col-md-3 col-sm-6">
+         </ul>
+          <h2>Work Experience</h2>
+          <ul>
+          <p>Production/Field Engineering Intern, EOG Resources</p>
+          <p>Undergraduate Research Assistant, UT RAPID Drilling Consortium</p>
+          <p>Undergraduate Research Assistant, Glue Research Program</p>
+          <p>The Green Program</p>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <!-- <h2>Links</h2>
+          <p><a href="files/AhadMomin_Resume.pdf" target="_blank">Resume</a></p>
+          <p><a href="https://www.linkedin.com/in/ahad-momin-58b1b9129" target="_blank">LinkedIn</a></p>
+          <p><a href="https://github.com/ahadmomin" target="_blank">GitHub</a></p> -->
+          <p> </p>
+          <h2>Contact Me</h2>
+          <p></p>
+          <p><a href="https://www.facebook.com/l12232ewqdqee" target="_blank">Facebook</a></p>
+          <p> </p>
+          <h2>Extras</h2>
+          <p><a href="https://thegreenprogram.com/blog/proactivity-is-the-key-to-progress" target="_blank">Feature BLOG</a></p>
+          <p><a href="#" target="_blank">Graphic Design</a></p>
+          <p><a href="#" target="_blank">Travel</a></p>
+        </div>
+      </div>
+
+      
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
