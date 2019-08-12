@@ -1,17 +1,25 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 0px;
+  padding-right: 0px
   padding-bottom: 20px;
 }
 
 p {
+	padding-right: 0px;
+	font-size: 16px;
+}
+
+k {
+	padding-top: -0.5 px;
+	padding-right: 0px;
 	font-size: 16px;
 }
 
 h4 {
 	text-align: center;
-	padding-left: 10px;
-	font-size :14px;
+	padding-left: 11px;
+	font-size :16px;
 }
 
 ul {
@@ -22,8 +30,8 @@ ul {
 
 h6 {
 	text-align: center;
-	padding-left: 10px;
-	font-size: 26px;
+	padding-left: 11px;
+	font-size: 32px;
 }
 
 img {
@@ -31,7 +39,15 @@ img {
 	margin-left: auto;
 	margin-right:auto;
 	width: 12.5%;
+	box-shadow: 0px 0px 7px 4px #74b7e8;
+  	animation: glow 1.5s linear infinite alternate;
 
+}
+
+@keyframes glow{
+  to {
+    box-shadow: 0px 0px 20px 10px #53aced;
+  }
 }
 
 h1 {
